@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "commonjs",
+      "lib": ["ES2015", "ES2016", "ES2017", "ES2018", "ES2019", "ES2020", "DOM"],
+      "allowJs": true,
+      "checkJs": false,
+      "sourceMap": true,
+      "outDir": "dist",
+      "noImplicitAny": true,
+      "alwaysStrict": true,
+  
+      /* Module Resolution Options */
+      "moduleResolution": "node",
+      "rootDirs": ["src/", "public/"],
+      "typeRoots": ["./src/types", "./node_modules/@types"],
+  
+      "esModuleInterop": true,
+  
+      "forceConsistentCasingInFileNames": true
+    },
+    "include": ["src/**/*"],
+    "exclude": ["dist"]
+  }

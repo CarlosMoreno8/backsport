@@ -1,0 +1,19 @@
+.env*
+!.env.example
+
+# Dependency directory
+node_modules
+
+# Editors
+.idea
+*.iml
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Ignore built ts files
+dist/**/*
+
+# npm Lock files
+package-lock.json
